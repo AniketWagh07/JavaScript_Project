@@ -1,0 +1,101 @@
+* {
+  font-family: "Cormorant";
+  font-style: italic;
+  font-weight: 300;
+  box-sizing: border-box;
+}
+body {
+  padding: 0;
+  margin: 0;
+}
+main {
+  background-color: rgba(0, 0, 0, 0.9);
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+main > #left {
+  padding: 3rem 4rem 0;
+  min-height: 80vh;
+  width: 35%;
+  background-color: white;
+  border-radius: 7px;
+}
+main > #left > h2 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #c19d56;
+  text-shadow: 0 1px 7px #c19d56;
+}
+main > #left > form {
+  display: flex;
+  flex-direction: column;
+}
+label,
+p,
+button {
+  font-family: Montserrat, sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  margin-bottom: 0.5rem;
+  color: rgb(88, 87, 87);
+}
+main > #left > form > label {
+  font-size: 0.9rem;
+}
+main > #left > form > input {
+  width: 85%;
+  margin-bottom: 2rem;
+  padding: 0.5rem 1rem;
+  border-radius: 7px;
+  border: 1px solid gray;
+  font-family: Montserrat, sans-serif;
+  font-style: normal;
+  font-weight: 300;
+}
+main > #left > form > input::placeholder {
+  font-family: Montserrat, sans-serif;
+  font-style: normal;
+  font-weight: 300;
+}
+main > #left > form > span {
+  color: red;
+  font-size: 0.9rem;
+}
+main > #left > form > button {
+  margin-top: 1.3rem;
+  width: 85%;
+  padding: 1rem;
+  background-color: black;
+  color: white;
+  border: none;
+  border-radius: 7px;
+  cursor: pointer;
+  font-size: 1.1rem;
+}
+main > #left > p {
+  margin-top: 3rem;
+  font-weight: 500;
+}
+main > #left > p > a {
+  font-size: 1.3rem;
+  color: black;
+  font-weight: 700;
+  margin-left: 0.3rem;
+}
+
+main > #right {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url(./Images/Login_img.avif);
+  width: 37%;
+  min-height: 80vh;
+  margin-left: -2rem;
+  border-radius: 20px;
+  padding: 3rem 0 0 6rem;
+}
+main > #right > h3 {
+  color: whitesmoke;
+  font-size: 3rem;
+  font-weight: 1000;
+}

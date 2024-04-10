@@ -1,0 +1,489 @@
+body {
+  margin: 0;
+  padding: 0;
+  position: relative;
+}
+
+/* Nav Section */
+nav {
+  display: flex;
+  justify-content: space-between;
+  background-color: transparent;
+  padding: 0 2.5rem;
+  background: white;
+  width: 94.7%;
+  position: sticky;
+  top: 0%;
+  left: 0%;
+  z-index: 3;
+  transition: all 0.7s;
+  box-shadow: -3px 0 3px black;
+}
+nav > #left {
+  height: 8rem;
+  display: flex;
+  align-items: center;
+}
+nav > #left > img {
+  width: 100%;
+  height: 6rem;
+  cursor: pointer;
+}
+nav > #right {
+  display: flex;
+  align-items: center;
+  gap: 10%;
+  width: 73%;
+}
+nav > #right > #nav-links > #nav-drop {
+  display: flex;
+  /* justify-content: space-around; */
+  align-items: center;
+  gap: 1.5rem;
+  list-style-type: none;
+  margin: 0;
+  height: 8rem;
+}
+nav > #right > #nav-links > #nav-drop > li {
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+nav > #right > #nav-links > #nav-drop > #order > div {
+  color: white;
+  background-color: #c19d56;
+  padding: 7px 16px;
+  border-radius: 5px;
+}
+nav > #right > #nav-links > #nav-drop > #order > div a {
+  position: relative;
+  font-family: Montserrat, sans-serif;
+  font-style: normal;
+  text-decoration: none;
+  color: white;
+  font-size: 13px;
+  line-height: 23px;
+  letter-spacing: 0.19em;
+  font-weight: 500;
+  cursor: pointer;
+}
+#nav-drop > #order > div > i {
+  margin-right: 7px;
+}
+#nav-drop > #order > div > a:hover {
+  color: white;
+}
+#nav-drop > #order > div > a::after {
+  content: "";
+  position: absolute;
+  bottom: -3px;
+  left: 35%; /* Adjust the position to center it */
+  width: 1.5rem; /* Set the width to 50% of the content */
+  height: 1px; /* Set the thickness of the line */
+  background-color: transparent; /* Set the default color as transparent */
+  transition: width 0.3s ease, background-color 0.3s ease; /* Add smooth transitions */
+}
+#nav-drop > #order > div > a:hover::after {
+  width: 1.5rem; /* Set the width to 50% on hover */
+  background-color: white; /* Set the color on hover */
+}
+#nav-drop > li > a {
+  position: relative;
+  font-family: Montserrat, sans-serif;
+  font-style: normal;
+  text-decoration: none;
+  color: black;
+  font-size: 13px;
+  line-height: 23px;
+  letter-spacing: 0.19em;
+  font-weight: 500;
+  cursor: pointer;
+}
+#nav-drop > li > a:hover {
+  color: #c19d56 !important;
+}
+#nav-drop > li > a::after {
+  content: "";
+  position: absolute;
+  bottom: -3px;
+  left: 35%; /* Adjust the position to center it */
+  width: 1.5rem; /* Set the width to 50% of the content */
+  height: 1px; /* Set the thickness of the line */
+  background-color: transparent; /* Set the default color as transparent */
+  transition: width 0.3s ease, background-color 0.3s ease; /* Add smooth transitions */
+}
+#nav-drop > li > a:hover::after {
+  width: 1.5rem; /* Set the width to 50% on hover */
+  background-color: #c19d56; /* Set the color on hover */
+}
+#nav-drop > .home > a {
+  color: #c19d56;
+}
+#nav-drop > .home > a::after {
+  content: "";
+  position: absolute;
+  bottom: -3px;
+  left: 27%; /* Adjust the position to center it */
+  width: 1.3rem; /* Set the width to 50% of the content */
+  height: 1px; /* Set the thickness of the line */
+  background-color: #c19d56; /* Set the default color as transparent */
+  transition: width 0.3s ease, background-color 0.3s ease; /* Add smooth transitions */
+}
+/* #nav-links li {
+    position: relative;
+  } */
+.drops {
+  color: black;
+  list-style: none;
+  padding: 0;
+  position: absolute;
+  background-color: whitesmoke;
+  z-index: 1;
+  top: 100%;
+  display: none;
+  margin-left: -1.5rem;
+}
+.drops > div {
+  background-color: white;
+  margin: 1rem;
+  padding: 1rem 4rem 1rem 1rem;
+  border: 1px solid #c19d56;
+}
+.drops > div > li > a {
+  text-decoration: none;
+  color: black;
+  font-size: 19px;
+  line-height: 26px;
+}
+.drops > div > li > a:hover {
+  color: #c19d56ac;
+}
+#discover:hover .discover-drop {
+  display: block;
+}
+#products:hover .products-drop {
+  display: block;
+}
+#eatrium:hover .eatrium-drop {
+  display: block;
+}
+#offerings:hover .offerings-drop {
+  display: block;
+}
+
+#nav-icons {
+  width: 21%;
+  color: black;
+  display: flex;
+  align-items: center;
+  gap: 10%;
+  cursor: pointer;
+  font-size: 1.3rem;
+}
+#nav-icons > i:hover {
+  color: #c19d56;
+}
+#nav-icons button {
+  padding: 0.5rem 0.9rem;
+  background-color: #000;
+  color: white;
+  font-weight: 700;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: all 0.7s;
+  margin-right: 0.3rem;
+}
+#nav-icons button:hover {
+  background-color: transparent;
+  color: #000;
+}
+#nav-icons #cart_count {
+  position: absolute;
+  top: 23%;
+  right: 5%;
+  padding: 0.2rem 0.5rem;
+  background-color: red;
+  border-radius: 50%;
+  font-size: 0.7rem;
+  display: none;
+}
+#nav-icons > #login > span {
+  color: #c3672c;
+  font-weight: 700;
+  margin-right: 0.8rem;
+}
+
+/* popup section  */
+#popup {
+  width: 25%;
+  background-color: black;
+  position: fixed;
+  top: 0%;
+  right: -100%;
+  height: 100vh;
+  transition: 1s;
+  padding: 2rem 1.5rem;
+  overflow-y: scroll;
+  z-index: 3;
+}
+#static > h3 {
+  text-align: right;
+  font-size: 1.3rem;
+  margin: 0;
+  color: white;
+  cursor: pointer;
+}
+#static > h2 {
+  text-align: center;
+  color: white;
+}
+.cart-design {
+  display: grid;
+  grid-template-columns: 20% 37% 7% 7%;
+  justify-content: space-around;
+  color: white;
+  background-color: lightslategray;
+  margin-bottom: 0.7rem;
+}
+.cart-design > div > img {
+  width: 100%;
+  padding-top: 1rem;
+}
+.cart-design > div > input {
+  margin: 0.7rem 0;
+  width: 70%;
+}
+.cart-design > div > h2,
+h3,
+h4 {
+  color: white;
+  font-size: 0.9rem;
+  align-self: flex-start;
+}
+#dynamic > a {
+  text-decoration: none;
+  font-size: 1.5rem;
+  color: antiquewhite;
+}
+.fa-trash {
+  margin-top: 1.5rem;
+  color: #c3672c;
+  cursor: pointer;
+}
+#footer {
+  display: none;
+}
+#footer > button {
+  width: 100%;
+  padding: 0.7rem 0;
+  font-weight: 700;
+  letter-spacing: 1px;
+  border-radius: 7px;
+  border: none;
+  cursor: pointer;
+}
+#footer > h2 {
+  color: white;
+}
+#footer > h2 > span {
+  color: whitesmoke;
+}
+
+/* heading section  */
+#heading {
+  text-align: center;
+  padding: 1.5rem 2rem 2rem;
+  box-shadow: 0px 3px 5px rgb(173, 172, 172);
+}
+#heading > h2 {
+  font-size: 3rem;
+  letter-spacing: 7px;
+}
+#heading > p {
+  font-size: 1.1rem;
+}
+#heading > div {
+  display: flex;
+  width: 48%;
+  margin: auto;
+  /* background-color: whitesmoke; */
+  border-radius: 1.2rem;
+  margin-top: 2rem;
+}
+#heading > div > h5 {
+  margin: 0;
+  font-size: 1.1rem;
+  padding: 0.7rem 1rem;
+  /* background-color: blue; */
+  border-radius: 1.2rem;
+  transition: all 0.3s;
+  cursor: pointer;
+}
+#heading > div > .bgActive {
+  color: white;
+  background-color: #c3672c;
+}
+#heading > div > h5:hover {
+  color: white;
+  background-color: #c3672c;
+}
+
+/* product section  */
+#order_products {
+  padding: 3rem 0;
+  width: 77%;
+  margin: auto;
+}
+#order_products > #cakes > div {
+  display: flex;
+  justify-content: space-between;
+  background-color: whitesmoke;
+  padding: 1.2rem;
+  border-radius: 7px;
+  position: relative;
+  min-height: 33vh;
+  border-bottom: 1px solid gray;
+  margin-bottom: 1rem;
+}
+#order_products > #cakes > div > .content {
+  width: 50%;
+}
+#order_products > #cakes > div > div > #veg {
+  width: 5%;
+  height: 1.5rem;
+}
+#order_products > #cakes > div > div > h3 {
+  margin: 0;
+  font-size: 1.7rem;
+  letter-spacing: 1px;
+}
+#order_products > #cakes > div > div > h5 {
+  margin: 0;
+  font-size: 1.2rem;
+  font-weight: 100;
+}
+#order_products > #cakes > div > div > .rating {
+  margin: 1.5rem 0;
+  color: green;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  font-weight: 700;
+}
+#order_products > #cakes > div > div > .rating > i {
+  font-size: 0.7rem;
+}
+#order_products > #cakes > div > div > .des {
+  font-weight: 200;
+  font-size: 1.2rem;
+  line-height: 19px;
+  letter-spacing: -0.3px;
+  color: rgba(2, 6, 12, 0.6);
+}
+#order_products > #cakes > div > #product-img > img {
+  height: 27vh;
+}
+#order_products > #cakes > div > #product-img > button {
+  position: absolute;
+  bottom: 15%;
+  right: 5%;
+  padding: 0.7rem 2.3rem;
+  font-size: 1.1rem;
+  color: green;
+  font-weight: 700;
+  background-color: white;
+  border: none;
+  border-radius: 7px;
+  box-shadow: 0px 1px 1px rgb(164, 163, 163);
+  cursor: pointer;
+}
+#order_products > #cakes > div > #product-img > button:hover {
+  background-color: lightgray;
+}
+
+/* footer section  */
+footer {
+  padding: 5rem 7rem 4rem;
+  background-color: #000;
+  display: flex;
+  justify-content: space-between;
+}
+footer > #footer-left {
+  color: white;
+  width: 32%;
+}
+footer > #footer-right {
+  color: white;
+  width: 32%;
+}
+footer h5 {
+  font-size: 18px;
+  line-height: 1.33em;
+  font-family: Montserrat, sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  letter-spacing: 0.06em;
+}
+footer p {
+  color: #c8c8c8;
+  margin-bottom: 2.7rem;
+  line-height: 31px;
+  transition: all 0.5s;
+  cursor: pointer;
+}
+footer p:hover {
+  color: #c19d56;
+}
+footer > #footer-middle {
+  width: 23%;
+  text-align: center;
+  padding-top: 1.5rem;
+  position: relative;
+}
+footer > #footer-middle > img {
+  width: 60%;
+  margin-bottom: 2rem;
+}
+footer > #footer-middle > hr {
+  width: 60%;
+  border: 0.3px solid #c19d56;
+}
+footer > #footer-middle i {
+  color: #c19d56;
+  transform: rotate(45deg);
+}
+footer > #footer-middle > .first {
+  font-size: 0.5rem;
+  background-color: #c19d56;
+  position: absolute;
+  top: 32%;
+  left: 48.5%;
+  z-index: 1;
+}
+footer > #footer-middle > div {
+  margin: 4rem 0;
+  display: flex;
+  justify-content: space-around;
+}
+footer > #footer-middle > div > a {
+  text-decoration: none;
+  display: inline-block;
+  /* position: relative; */
+}
+footer > #footer-middle > div > a > i {
+  font-size: 2.1rem;
+  transition: all 0.3s;
+}
+footer > #footer-middle > div > a > i > i {
+  transform: rotate(-45deg);
+  font-size: 0.9rem;
+  position: absolute;
+  top: 26%;
+  left: 30%;
+}
+footer > #footer-middle > div > a > i:hover {
+  background-color: #c19d56;
+}
+footer > #footer-middle > div > a > i:hover .media {
+  color: #000;
+}

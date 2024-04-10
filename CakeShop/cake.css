@@ -1,0 +1,666 @@
+* {
+  font-family: "Cormorant";
+  font-style: italic;
+  font-weight: 300;
+  /* box-sizing: content-box; */
+}
+body {
+  margin: 0;
+  padding: 0;
+  position: relative;
+}
+
+/* #top {
+  position: absolute;
+  bottom: 2%;
+  right: 2%;
+  color: #c19d56;
+  font-size: 4.5rem;
+  transition: all 0.5s;
+  cursor: pointer;
+} */
+
+/* Nav Section */
+nav {
+  display: flex;
+  justify-content: space-between;
+  background-color: transparent;
+  padding: 0 2.5rem;
+  background: transparent;
+  width: 94.7%;
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  z-index: 3;
+  transition: all 0.7s;
+}
+.nav-sticky {
+  position: sticky;
+  background-color: white;
+}
+nav > #left {
+  height: 8rem;
+  display: flex;
+  align-items: center;
+}
+nav > #left > img {
+  width: 100%;
+  height: 6rem;
+  cursor: pointer;
+}
+nav > #right {
+  display: flex;
+  /* justify-content: space-between; */
+  align-items: center;
+  gap: 1.7rem;
+  width: 67%;
+}
+nav > #right > #nav-links > #nav-drop {
+  display: flex;
+  /* justify-content: space-around; */
+  align-items: center;
+  gap: 1.5rem;
+  list-style-type: none;
+  margin: 0;
+  height: 8rem;
+}
+nav > #right > #nav-links > #nav-drop > li {
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+nav > #right > #nav-links > #nav-drop > #order > div {
+  color: white;
+  background-color: #c19d56;
+  padding: 7px 16px;
+  border-radius: 5px;
+}
+nav > #right > #nav-links > #nav-drop > #order > div a {
+  position: relative;
+  font-family: Montserrat, sans-serif;
+  font-style: normal;
+  text-decoration: none;
+  color: white;
+  font-size: 13px;
+  line-height: 23px;
+  letter-spacing: 0.19em;
+  font-weight: 500;
+  cursor: pointer;
+}
+#nav-drop > #order > div > i {
+  margin-right: 7px;
+}
+#nav-drop > #order > div > a:hover {
+  color: white;
+}
+#nav-drop > #order > div > a::after {
+  content: "";
+  position: absolute;
+  bottom: -3px;
+  left: 35%; /* Adjust the position to center it */
+  width: 1.5rem; /* Set the width to 50% of the content */
+  height: 1px; /* Set the thickness of the line */
+  background-color: transparent; /* Set the default color as transparent */
+  transition: width 0.3s ease, background-color 0.3s ease; /* Add smooth transitions */
+}
+#nav-drop > #order > div > a:hover::after {
+  width: 1.5rem; /* Set the width to 50% on hover */
+  background-color: white; /* Set the color on hover */
+}
+#nav-drop > li > a {
+  position: relative;
+  font-family: Montserrat, sans-serif;
+  font-style: normal;
+  text-decoration: none;
+  color: white;
+  font-size: 13px;
+  line-height: 23px;
+  letter-spacing: 0.19em;
+  font-weight: 500;
+  cursor: pointer;
+}
+#nav-drop > li > a:hover {
+  color: #c19d56 !important;
+}
+#nav-drop > li > a::after {
+  content: "";
+  position: absolute;
+  bottom: -3px;
+  left: 35%; /* Adjust the position to center it */
+  width: 1.5rem; /* Set the width to 50% of the content */
+  height: 1px; /* Set the thickness of the line */
+  background-color: transparent; /* Set the default color as transparent */
+  transition: width 0.3s ease, background-color 0.3s ease; /* Add smooth transitions */
+}
+#nav-drop > li > a:hover::after {
+  width: 1.5rem; /* Set the width to 50% on hover */
+  background-color: #c19d56; /* Set the color on hover */
+}
+#nav-drop > .home > a {
+  color: #c19d56;
+}
+#nav-drop > .home > a::after {
+  content: "";
+  position: absolute;
+  bottom: -3px;
+  left: 27%; /* Adjust the position to center it */
+  width: 1.3rem; /* Set the width to 50% of the content */
+  height: 1px; /* Set the thickness of the line */
+  background-color: #c19d56; /* Set the default color as transparent */
+  transition: width 0.3s ease, background-color 0.3s ease; /* Add smooth transitions */
+}
+/* #nav-links li {
+  position: relative;
+} */
+.drops {
+  color: black;
+  list-style: none;
+  padding: 0;
+  position: absolute;
+  background-color: white;
+  z-index: 1;
+  top: 100%;
+  display: none;
+  margin-left: -1.5rem;
+}
+.drops > div {
+  background-color: white;
+  margin: 1rem;
+  padding: 1rem 4rem 1rem 1rem;
+  border: 1px solid #c19d56;
+}
+.drops > div > li > a {
+  text-decoration: none;
+  color: black;
+  font-size: 19px;
+  line-height: 26px;
+}
+.drops > div > li > a:hover {
+  color: #c19d56ac;
+}
+#discover:hover .discover-drop {
+  display: block;
+}
+#products:hover .products-drop {
+  display: block;
+}
+#eatrium:hover .eatrium-drop {
+  display: block;
+}
+#offerings:hover .offerings-drop {
+  display: block;
+}
+
+#nav-icons {
+  color: white;
+  display: flex;
+  align-items: center;
+  gap: 1.7rem;
+  cursor: pointer;
+}
+#nav-icons > i:hover {
+  color: #c19d56;
+}
+#hr-div hr {
+  border: 0; /* Remove default border */
+  height: 0.7px;
+  width: 2rem; /* Set height */
+  background-color: white; /* Default color */
+  margin: 8px 0; /* Add margin for spacing */
+  transition: all 0.7s ease; /* Add transition for smooth effect */
+}
+#nav-icons > div > hr:nth-child(2) {
+  width: 60%;
+  margin: auto;
+}
+#hr-div:hover hr,
+#hr-div:hover hr:nth-child(2) {
+  background-color: #c19d56;
+  width: 2rem;
+}
+
+#main {
+  background-image: url(./Images/main_bg-1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  width: 100%;
+  min-height: 100vh;
+  position: relative;
+}
+/* Img Slider  */
+#img_slider > .content {
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* padding: 20rem 2.3rem 22rem; */
+  /* height: 80vh; */
+  font-size: 5.5rem;
+}
+#img_slider > .content > div {
+  position: absolute;
+  top: 30%;
+  left: 23%;
+}
+#img_slider h2 {
+  margin: 0;
+  font-family: "Allura", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+#img_slider .first_h {
+  margin-bottom: -3.5rem;
+  color: #c19d56;
+}
+#img_slider > .content > i {
+  font-weight: lighter;
+  color: #c19d56;
+  font-size: 4.5rem;
+  transition: all 0.5s;
+  cursor: pointer;
+  position: absolute;
+  top: 45%;
+}
+#img_slider .fa-angle-left {
+  left: 2%;
+}
+#img_slider .fa-angle-right {
+  right: 2%;
+}
+#img_slider i:hover {
+  transform: scale(1.2);
+}
+
+#img_slider > .star {
+  position: absolute;
+  bottom: 11%;
+  left: 45%;
+  z-index: 2;
+  color: #c19d56;
+}
+#img_slider > .star > .sqrBtns {
+  transform: rotate(45deg);
+  margin-right: 2rem;
+  font-size: 0.7rem;
+  cursor: pointer;
+}
+#img_slider > .star > i:first-child {
+  background-color: #c19d56;
+}
+#img_slider > .star > i:hover {
+  background-color: #c19d56 !important;
+}
+
+/* Food type section  */
+#food_type > div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 13rem 0rem 16.5rem;
+}
+#food_type > div > div {
+  text-align: center;
+  padding: 0 15px;
+  line-height: 31px;
+  width: 20%;
+  align-self: start;
+}
+#food_type > div > div > h3 {
+  font-size: 18px;
+  font-weight: 600;
+  font-family: Montserrat, sans-serif;
+  font-style: normal;
+  letter-spacing: 0.07em;
+}
+#food_type > div > div > p {
+  font-weight: 400;
+}
+
+/* Welcome Section  */
+#welcome {
+  background-image: url(./Images/sec3_bgImg.jpg);
+  background-repeat: no-repeat;
+  background-size: 125%;
+  background-position: center center;
+  background-position-y: top;
+  width: 92.5%;
+  padding-left: 7rem;
+  color: white;
+  min-height: 100vh;
+}
+#welcome > .welcome_content {
+  padding-top: 10rem;
+}
+#welcome > .welcome_content > .begin {
+  font-size: 1.7rem;
+  color: #c19d56;
+  margin: 0;
+  font-family: "Allura", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+#welcome > .welcome_content > h4 {
+  margin: 0 0 1rem;
+  font-size: 1.7rem;
+  font-weight: 600;
+  font-family: Montserrat, sans-serif;
+  font-style: normal;
+  letter-spacing: 0.09em;
+}
+#welcome > .welcome_content > i {
+  display: inline-block;
+  transform: rotate(45deg);
+  color: #c19d56;
+  background-color: #c19d56;
+  font-size: 0.6rem;
+}
+#welcome > .welcome_content > hr {
+  display: inline-block;
+  width: 8%;
+  margin-bottom: 2px;
+  margin-left: -3px;
+  border: 1px solid #c19d56;
+}
+#welcome > .welcome_content > p {
+  width: 44%;
+  font-family: Cormorant;
+  font-size: 24px;
+  line-height: 1.42em;
+  font-style: italic;
+  font-weight: 400;
+  letter-spacing: 0.06em;
+  margin-top: 2.5rem;
+}
+#welcome > .welcome_content > button {
+  padding: 12px 54px;
+  font-size: 0.9rem;
+  line-height: 2em;
+  font-weight: 500;
+  letter-spacing: 0.06em;
+  font-style: normal;
+  outline: #000 solid 1px;
+  outline-offset: 3px;
+  margin-left: 3px;
+  color: rgb(255, 255, 255);
+  background-color: rgb(193, 157, 86);
+  border-color: rgb(193, 157, 86);
+  outline-color: rgb(193, 157, 86);
+  transition: all 0.7s;
+  margin-top: 2rem;
+}
+#welcome > .welcome_content > button:hover {
+  background: transparent;
+}
+
+/* creation Section  */
+#creation {
+  padding: 9rem 7rem;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+#creation-left {
+  width: 50%;
+}
+#creation-left > img {
+  width: 100%;
+}
+#creation-right {
+  width: 44%;
+}
+#creation-right > h2 {
+  font-size: 28px;
+  letter-spacing: 0.08em;
+  font-family: Montserrat, sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  margin-top: 0.5rem;
+}
+#creation-right > i {
+  display: inline-block;
+  transform: rotate(45deg);
+  color: #c19d56;
+  background-color: #c19d56;
+  font-size: 0.6rem;
+}
+#creation-right > hr {
+  display: inline-block;
+  width: 22%;
+  margin-bottom: 2px;
+  margin-left: -3px;
+  border: 1px solid #c19d56;
+}
+#creation-right > h4 {
+  font-family: Cormorant;
+  font-size: 24px;
+  line-height: 1.42em;
+  font-style: italic;
+  letter-spacing: 0.06em;
+  font-weight: 700;
+  margin: 1rem 0;
+}
+#creation-right > p {
+  font-family: Cormorant;
+  font-size: 24px;
+  line-height: 1.42em;
+  font-style: italic;
+  font-weight: 400;
+  letter-spacing: 0.06em;
+  margin-top: 1rem;
+}
+
+/* photo section  */
+#photo {
+  position: relative;
+  text-align: center;
+}
+#photo > .img-div {
+  display: flex;
+  overflow: hidden;
+}
+#photo > .img-div > img {
+  width: 24.99%;
+  transform: scale(1.05);
+  transition: all 0.7s;
+}
+#photo > .img-div > img:last-child {
+  display: none;
+}
+#photo > .img-div > img:hover {
+  transform: scale(1);
+}
+#photo > i {
+  font-weight: lighter;
+  color: #c19d56;
+  font-size: 4.5rem;
+  transition: all 0.5s;
+  cursor: pointer;
+  position: absolute;
+}
+#photo > .fa-angle-left {
+  top: 45%;
+  left: 2%;
+  z-index: 2;
+}
+#photo > .fa-angle-right {
+  top: 45%;
+  right: 2%;
+}
+#photo i:hover {
+  transform: scale(1.2);
+}
+#photo > .btn-div {
+  margin: 2rem 0;
+}
+#photo > div > .photoBtn {
+  transform: rotate(45deg);
+  margin-right: 1rem;
+  font-size: 0.8rem;
+  color: #c19d56;
+}
+#photo > div > .photoBtn:first-child {
+  background-color: #c19d56;
+}
+#photo > div > .photoBtn:hover {
+  background-color: #c19d56 !important;
+}
+
+/* ingredients Section  */
+#ingredients {
+  display: flex;
+  justify-content: space-between;
+  gap: 9%;
+  padding: 8rem 7rem 10rem;
+}
+#ingredients > .ingredients_right {
+  margin-top: 2rem;
+}
+#ingredients > .ingredients_right > h2 {
+  font-size: 28px;
+  letter-spacing: 0.08em;
+  font-family: Montserrat, sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  margin-top: 0.5rem;
+}
+#ingredients > .ingredients_right > i {
+  display: inline-block;
+  transform: rotate(45deg);
+  color: #c19d56;
+  background-color: #c19d56;
+  font-size: 0.6rem;
+}
+#ingredients > .ingredients_right > hr {
+  display: inline-block;
+  width: 15%;
+  margin-bottom: 2px;
+  margin-left: -3px;
+  border: 1px solid #c19d56;
+}
+#ingredients > .ingredients_right > p {
+  font-family: Cormorant;
+  font-size: 24px;
+  line-height: 1.42em;
+  font-style: italic;
+  font-weight: 400;
+  letter-spacing: 0.06em;
+  margin-top: 1rem;
+}
+
+/* make section  */
+#make {
+  background-image: url(./Images/make_sec_bgImg.jpg);
+  background-repeat: no-repeat;
+  background-size: 130%;
+  background-position: center center;
+  background-position-y: top;
+  width: 100%;
+  min-height: 75vh;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+#make > h2 {
+  font-family: Allura;
+  font-size: 100px;
+  line-height: 120px;
+  font-weight: 400;
+  font-style: italic;
+  letter-spacing: 4px;
+  text-transform: none;
+  text-align: center;
+  position: absolute; /* Set the h2's position to absolute */
+  top: 50%; /* Initially set the top position to center vertically */
+  transform: translateY(-50%); /* Center the h2 vertically */
+  margin: 0; /* Remove default margin */
+}
+
+/* footer section  */
+footer {
+  padding: 5rem 7rem 4rem;
+  background-color: #000;
+  display: flex;
+  justify-content: space-between;
+}
+footer > #footer-left {
+  color: white;
+  width: 32%;
+}
+footer > #footer-right {
+  color: white;
+  width: 32%;
+}
+footer h5 {
+  font-size: 18px;
+  line-height: 1.33em;
+  font-family: Montserrat, sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  letter-spacing: 0.06em;
+}
+footer p {
+  color: #c8c8c8;
+  margin-bottom: 2.7rem;
+  line-height: 31px;
+  transition: all 0.5s;
+  cursor: pointer;
+}
+footer p:hover {
+  color: #c19d56;
+}
+footer > #footer-middle {
+  width: 23%;
+  text-align: center;
+  padding-top: 1.5rem;
+  position: relative;
+}
+footer > #footer-middle > img {
+  width: 60%;
+  margin-bottom: 2rem;
+}
+footer > #footer-middle > hr {
+  width: 60%;
+  border: 0.3px solid #c19d56;
+}
+footer > #footer-middle i {
+  color: #c19d56;
+  transform: rotate(45deg);
+}
+footer > #footer-middle > .first {
+  font-size: 0.5rem;
+  background-color: #c19d56;
+  position: absolute;
+  top: 32%;
+  left: 48.5%;
+  z-index: 1;
+}
+footer > #footer-middle > div {
+  margin: 4rem 0;
+  display: flex;
+  justify-content: space-around;
+}
+footer > #footer-middle > div > a {
+  text-decoration: none;
+  display: inline-block;
+  /* position: relative; */
+}
+footer > #footer-middle > div > a > i {
+  font-size: 2.1rem;
+  transition: all 0.3s;
+}
+footer > #footer-middle > div > a > i > i {
+  transform: rotate(-45deg);
+  font-size: 0.9rem;
+  position: absolute;
+  top: 26%;
+  left: 30%;
+}
+footer > #footer-middle > div > a > i:hover {
+  background-color: #c19d56;
+}
+footer > #footer-middle > div > a > i:hover .media {
+  color: #000;
+}

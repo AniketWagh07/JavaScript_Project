@@ -1,0 +1,352 @@
+[
+  {
+    "productId": 1,
+    "category": "cake",
+    "name": "Black Forest - 500 Gms",
+    "flavor": "Chocolate",
+    "description": "Serves 1 | Chocolate sponge with the combination of red cherries and whipped cream.",
+    "price": 525,
+    "rating": 4.2,
+    "img": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_300,h_300,c_fit/1be8338646ba952ac30beb103b1b8784"
+  },
+  {
+    "productId": 2,
+    "category": "cake",
+    "name": "Blueberry Cheese Cake - 1 Kg",
+    "flavor": "Cheese Cake",
+    "description": "Serves 1 | Creamy cheese cake made with belgium blue berries, cheese and buttery biscuit crust.",
+    "price": 1379,
+    "rating": 2.3,
+    "img": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_300,h_300,c_fit/720f29177853584a595f31e8af968f07"
+  },
+  {
+    "productId": 3,
+    "category": "cake",
+    "name": "Blueberry Cheese Cake - 600 Gms",
+    "flavor": "Cheese Cake",
+    "description": "Serves 1 | Creamy cheese cake made with belgium blue berries, cheese and buttery biscuit crust.",
+    "price": 867,
+    "rating": 4.2,
+    "img": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_300,h_300,c_fit/720f29177853584a595f31e8af968f07"
+  },
+  {
+    "productId": 4,
+    "category": "cake",
+    "name": "Chocolate Biscoff - 600 Gms",
+    "flavor": "Chocolate",
+    "description": "Serves 1 | chocolate Biscoff Cake is made with three layers of chocolate sponge with a creamy mousse of Biscoff and chocolate , topped with a chocolate ganache",
+    "price": 788,
+    "rating": 4.3,
+    "img": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_300,h_300,c_fit/e9e6009fb9c3060e008fe6ca543fe5ab"
+  },
+  {
+    "productId": 5,
+    "category": "cake",
+    "name": "Chocolate Dream - 600 Gms",
+    "flavor": "Chocolate",
+    "description": "Serves 1 | Milk chocolate mousse cake with chocolate sponge and chocolate ganache.",
+    "price": 788,
+    "rating": 4.9,
+    "img": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_300,h_300,c_fit/fd736bd8839a6a6b1ebfe290afcbef7c"
+  },
+  {
+    "productId": 6,
+    "category": "cake",
+    "name": "Chocolate Nougat - 600 Gms",
+    "flavor": "Chocolate",
+    "description": "Serves 1 | Dark and milk chocolate ganache with caramelized cashew crunch and chocolate sponge.",
+    "price": 697,
+    "rating": 4.1,
+    "img": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_300,h_300,c_fit/6a8fc400a938fdfce218245cc814e2b9"
+  },
+  {
+    "productId": 7,
+    "category": "cake",
+    "name": "Chocolate Tiramisu - 1 Kg",
+    "flavor": "Chocolate",
+    "description": "Serves 1 | Traditional Italian cake fuse with coffee soaked chocolate sponge,coffee ganache, mascarpone mousse & coffee mousse",
+    "price": 1300,
+    "rating": 4.1,
+    "img": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_300,h_300,c_fit/olqkctqm4wixfwoxsbip"
+  },
+  {
+    "productId": 8,
+    "category": "cake",
+    "name": "Chocolate Tiramisu - 600 Gms",
+    "flavor": "Chocolate",
+    "description": "Serves 1 | Traditional Italian cake fuse with coffee soaked chocolate sponge,coffee ganache, mascarpone mousse & coffee mousse",
+    "price": 788,
+    "rating": 4.4,
+    "img": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_300,h_300,c_fit/85a86120b23930081426a8420076eaeb"
+  },
+  {
+    "productId": 9,
+    "category": "cake",
+    "name": "Chocolate Truffle - 1 Kg",
+    "flavor": "Chocolate",
+    "description": "Serves 1 | Semi sweet chocolate ganache with chocolate sponge.",
+    "price": 959,
+    "rating": 4.9,
+    "img": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_300,h_300,c_fit/74ecb5239d49bb3a696232e77bf5d80b"
+  },
+  {
+    "productId": 10,
+    "category": "cake",
+    "name": "Chocolate Truffle - 500 Gms",
+    "flavor": "Chocolate",
+    "description": "Serves 1 | Semi sweet chocolate ganache with chocolate sponge.",
+    "price": 525,
+    "rating": 4.4,
+    "img": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_300,h_300,c_fit/74ecb5239d49bb3a696232e77bf5d80b"
+  },
+  {
+    "productId": 11,
+    "category": "cake",
+    "name": "Death By Chocolate - 1 Kg",
+    "flavor": "Chocolate",
+    "description": "Serves 1 | Dense chocolate sponge layered with semi sweet ganache topped with cookie crumble.",
+    "price": 1208,
+    "rating": 3.5,
+    "img": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_300,h_300,c_fit/nrnhfxya5qmcvsg5ywzy"
+  },
+  {
+    "productId": 12,
+    "category": "cake",
+    "name": "Death By Chocolate - 600 Gms",
+    "flavor": "Chocolate",
+    "description": "Serves 1 | Dense chocolate sponge layered with semi sweet ganache topped with cookie crumble.",
+    "price": 788,
+    "rating": 4.3,
+    "img": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_300,h_300,c_fit/nrnhfxya5qmcvsg5ywzy"
+  },
+  {
+    "productId": 13,
+    "category": "cake",
+    "name": "Lotus Biscoff Cheese Cake - 500 Gms",
+    "flavor": "Cheese Cake",
+    "description": "Serves 1 | Cream cheese with white chocolate topped with biscoff spread with biscoff biscuit crust.",
+    "price": 867,
+    "rating": 4.6,
+    "img": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_300,h_300,c_fit/b425965384b48587b5f535b3329c8c3f"
+  },
+  {
+    "productId": 14,
+    "category": "cake",
+    "name": "Mango Fusion - 1 Kg",
+    "flavor": "Fruite",
+    "description": "Serves 1 | Mango cake bursting with fresh alphonso mango pieces and vanilla sponge.",
+    "price": 1208,
+    "rating": 3.7,
+    "img": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_300,h_300,c_fit/f1aa435b4d68d3f88b925ae8a6ecaf7a"
+  },
+  {
+    "productId": 15,
+    "category": "cake",
+    "name": "Mango Fusion - 600 Gms",
+    "flavor": "Fruite",
+    "description": "Serves 1 | Mango cake bursting with fresh alphonso mango pieces and vanilla sponge.",
+    "price": 788,
+    "rating": 3.7,
+    "img": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_300,h_300,c_fit/f1aa435b4d68d3f88b925ae8a6ecaf7a"
+  },
+  {
+    "productId": 16,
+    "category": "cake",
+    "name": "Pineapple Cake - 1 Kg",
+    "flavor": "Fruite",
+    "description": "Serves 1 | Fresh cream cake made with fresh pineapple chunks.",
+    "price": 959,
+    "rating": 5.0,
+    "img": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_300,h_300,c_fit/9efe77381280aca665228e14bc4fe55f"
+  },
+  {
+    "productId": 17,
+    "category": "cake",
+    "name": "Pineapple Cake - 500 Gms",
+    "flavor": "Fruite",
+    "description": "Serves 1 | Fresh cream cake made with fresh pineapple chunks.",
+    "price": 525,
+    "rating": 3.6,
+    "img": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_300,h_300,c_fit/9efe77381280aca665228e14bc4fe55f"
+  },
+  {
+    "productId": 18,
+    "category": "pastry",
+    "name": "San Sebastian Cheese Cake Pastry",
+    "flavor": "Cheese",
+    "description": "Introducing the San Sebastian Cheese Cake a creamy and rich indulgence made with the finest ingredients. Its velvety texture and delicate balance of flavors make it perfect for any occasion. Elevate your dessert experience with this exquisite cheesecake.",
+    "price": 172,
+    "rating": 4.6,
+    "img": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_300,h_300,c_fit/9712113c6032e8dd79de4dfce05ad927"
+  },
+  {
+    "productId": 19,
+    "category": "pastry",
+    "name": "Ultimate Chocolate Pastry",
+    "flavor": "Chocolate",
+    "description": "Serves 1 | Deliciously layered with milk, dark and white chocolate mousse.",
+    "price": 158,
+    "rating": 4.8,
+    "img": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_300,h_300,c_fit/e1c858b3453c9a1c65fb896adebce8b0"
+  },
+  {
+    "productId": 20,
+    "category": "pastry",
+    "name": "Tropical Fruit Pastry",
+    "flavor": "Fruite",
+    "description": "Serves 1 | Spongy vanilla cake layered with fresh fruits & covered with mix fruit frosting garnish with tropical fruits.",
+    "price": 125,
+    "rating": 4.3,
+    "img": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_300,h_300,c_fit/a832fe14f2ed03ea480bf729011d74e9"
+  },
+  {
+    "productId": 21,
+    "category": "pastry",
+    "name": "Red Velvet Pastry",
+    "flavor": "Fruite",
+    "description": "Serves 1 | Red velvet sponge layered with cream cheese frosting.",
+    "price": 139,
+    "rating": 4.6,
+    "img": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_300,h_300,c_fit/31eb5d8750b9bbdef852bc185ebb7acf"
+  },
+  {
+    "productId": 22,
+    "category": "pastry",
+    "name": "Rasmalai Cake Pastry",
+    "flavor": "Chocolate",
+    "description": "Serves 1 | Moist vanilla sponge soaked in rasmalai milk with pieces of real rasmalai and cloud of vanilla mousse the whole cake is in rasmalai milk",
+    "price": 139,
+    "rating": 4.3,
+    "img": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_300,h_300,c_fit/4a60225446f499e08bda77bec48c677a"
+  },
+  {
+    "productId": 23,
+    "category": "pastry",
+    "name": "Nutella Pastry",
+    "flavor": "Chocolate",
+    "description": "Serves 1 | Cookie crust with Nutella mouse and Nutella ganache.",
+    "price": 125,
+    "rating": 4.8,
+    "img": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_300,h_300,c_fit/216baa7c931252238a0f875f3807d5c6"
+  },
+  {
+    "productId": 24,
+    "category": "pastry",
+    "name": "Intense Dutch Truffle Pastry",
+    "flavor": "Chocolate",
+    "description": "Serves 1 | The delicious cake is crafted in layers of chocolate sponge with premium intence dark chocolate ganache.",
+    "price": 132,
+    "rating": 4.3,
+    "img": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_300,h_300,c_fit/dd3289af51a128078cd5b1278ead2b07"
+  },
+  {
+    "productId": 25,
+    "category": "dessert",
+    "name": "Angoor Malai",
+    "flavor": "dessert",
+    "description": "Serves 1 | Mini chenna balls soaked in saffron milk topped with pistachio.",
+    "price": 87,
+    "rating": 4.2,
+    "img": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_300,h_300,c_fit/79b6f3901a3e946085bb37cc149c3921"
+  },
+  {
+    "productId": 26,
+    "category": "dessert",
+    "name": "Baked Rasgulla",
+    "flavor": "dessert",
+    "description": "Deliure signature dessert made with rasgulla baked with creamy thick milk.",
+    "price": 99,
+    "rating": 4.5,
+    "img": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_300,h_300,c_fit/1fabbf45777b96d08d8e3921261f1b42"
+  },
+  {
+    "productId": 27,
+    "category": "dessert",
+    "name": "Biscoff Caramel Parfait",
+    "flavor": "dessert",
+    "description": "Give a long-standing classic a new twist with caramel,chococlate and create a totally crave-worthy dessert to seduce every chocolate lover. And be sure to keep enough aside for a second serving",
+    "price": 132,
+    "rating": 4.3,
+    "img": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_300,h_300,c_fit/opiivk3rg5z7o8v2rrsy"
+  },
+  {
+    "productId": 28,
+    "category": "dessert",
+    "name": "Chocolate Mousse",
+    "flavor": "dessert",
+    "description": "Dark and creamy chocolaty mousse.",
+    "price": 73,
+    "rating": 4.6,
+    "img": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_300,h_300,c_fit/7bff84f7ccdb2ba4349c8ed0d7188d36"
+  },
+  {
+    "productId": 29,
+    "category": "dessert",
+    "name": "Cookie And Cream Parfait",
+    "flavor": "dessert",
+    "description": "Cookies and Cream Dessert Cups is a rich, decadent dessert that every one will adore.Chocolate and cream are gently mix together. Combined with vanilla and crushed cookies, this simplified chocolate mousse is easy to make and guaranteed to impress - give it a go!",
+    "price": 119,
+    "rating": 3.6,
+    "img": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_300,h_300,c_fit/n8dbtsxwxldumreubvje"
+  },
+  {
+    "productId": 30,
+    "category": "dessert",
+    "name": "Firni",
+    "flavor": "dessert",
+    "description": "Serves 1 | Creamy pudding made from ground rice.",
+    "price": 60,
+    "rating": 4.5,
+    "img": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_300,h_300,c_fit/f08e94a357bb666cf1935c0dba202586"
+  },
+  {
+    "productId": 31,
+    "category": "dessert",
+    "name": "Hazelnut Ecstasy",
+    "flavor": "dessert",
+    "description": "Serves 1 | Glass desert served with salted caramel mousse, caramel sauce, Nutella & chocolate rice crisp.",
+    "price": 113,
+    "rating": 3.5,
+    "img": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_300,h_300,c_fit/1a584415508299191813b236766a9976"
+  },
+  {
+    "productId": 32,
+    "category": "dragees",
+    "name": "Honey Oatmeal Raisin - 120 Gms",
+    "flavor": "dragees",
+    "description": "-",
+    "price": 343,
+    "rating": 0,
+    "img": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_300,h_300,c_fit/c03eb0c687cd7a947e18bf20477c9597"
+  },
+  {
+    "productId": 33,
+    "category": "dragees",
+    "name": "Salted Pistachio - 120 Gms",
+    "flavor": "dragees",
+    "description": "-",
+    "price": 409,
+    "rating": 0,
+    "img": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_300,h_300,c_fit/0dc32c470c0f5e51aeb349fafcd075e0"
+  },
+  {
+    "productId": 34,
+    "category": "dragees",
+    "name": "Blueberry Cheese - 120 Gms",
+    "flavor": "dragees",
+    "description": "-",
+    "price": 422,
+    "rating": 0,
+    "img": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_300,h_300,c_fit/9e0931bbc9bff174ce35864b84aac5b1"
+  },
+  {
+    "productId": 35,
+    "category": "dragees",
+    "name": "Crunchy Hazelnut - 120 Gms",
+    "flavor": "dragees",
+    "description": "-",
+    "price": 396,
+    "rating": 0,
+    "img": ""
+  }
+]
